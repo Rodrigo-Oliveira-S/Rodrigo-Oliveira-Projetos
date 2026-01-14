@@ -1,0 +1,23 @@
+# Executáveis
+*.exe
+*.o
+*.class
+
+# Backups
+*.bak
+*.backup
+
+# Ambiente Python
+__pycache__/
+*.pyc
+.env
+
+# Dados sensíveis
+*.db
+*.sqlite
+*.key
+*.pem
+
+# Sistemas operacionais
+.DS_Store
+Thumbs.db

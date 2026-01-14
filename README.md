@@ -32,4 +32,4 @@ Com foco em unir programas para conexões que dão resultado.
 - LinkedIn: https://linkedin.com/in/rodrigo-oliveira-silva-773385376
 
 ---
-*Última atualização: $(date)*
+
