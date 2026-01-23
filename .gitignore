@@ -1,23 +1,113 @@
-# Executáveis
-*.exe
-*.o
-*.class
+# ============================================
+# ARQUIVOS PARA IGNORAR - Mantenha apenas código fonte
+# ============================================
 
-# Backups
-*.bak
-*.backup
+# 🔧 COBOL - Executáveis principais
+hello-word
+calculadora
 
-# Ambiente Python
-__pycache__/
-*.pyc
-.env
+# 🔧 COBOL - Principais executáveis e intermediários
+*.gnt                  # Executável gerado
+*.int                  # Código intermediário
+*.idy                  # Arquivos IDYMS
+*.idy[0-9]             # Arquivos IDYMS numerados
+*.cob.exe             # Executável COBOL
+cobol-run             # Executável comum
+*.so                  # Shared objects
+*.dll                 # DLLs do COBOL
 
-# Dados sensíveis
-*.db
-*.sqlite
-*.key
-*.pem
+# 🐍 PYTHON - Cache e builds
+__pycache__/          # Cache de bytecode
+*.pyc                 # Bytecode compilado
+*.pyo                 # Bytecode otimizado
+*.pyd                 # Extensões Python
+dist/                 # Distribuições (pip)
+build/                # Builds locais
+*.egg-info/           # Informações de pacotes
+.env/                 # Ambientes virtuais
+venv/                 # Ambientes virtuais
+.python-version       # Versão Python
 
-# Sistemas operacionais
-.DS_Store
-Thumbs.db
+# 🗄️ MYSQL / MARIADB
+*.ibd                 # Dados InnoDB
+*.frm                 # Definição de tabela
+*.myd                 # Dados MyISAM
+*.myi                 # Índices MyISAM
+*.mdf                 # Arquivo de dados SQL Server
+*.ldf                 # Log SQL Server
+ibdata1               # Dados do sistema InnoDB
+ib_logfile*           # Logs do InnoDB
+
+# 📊 DB2
+*.db2                 # Arquivos DB2
+*.ixf                 # Exchange Format
+*.del                 # DEL files
+*.msg                 # Mensagens
+*.out                 # Output de comandos
+*.lst                 # List files
+
+# 🐘 POSTGRESQL
+*.pid                 # Process ID file
+postmaster.pid        # PID do Postgres
+postgresql.conf       # Config (geralmente não versionado)
+pg_hba.conf           # Config auth (não versionado)
+pgdata/               # Diretório de dados
+*.dump                # Backups de dump
+*.sql.backup          # Backups SQL
+
+# 💾 BACKUPS - Todos os tipos
+*.bak                 # Backup geral
+*.backup              # Backup
+*.old                 # Versões antigas
+*.tmp                 # Temporários
+*~                    # Backup de editores
+*.swp                 # Swap do Vim
+*.swo                 # Swap do Vim
+*.orig                # Arquivos de merge
+*.rej                 # Rejeitados no merge
+
+# 📦 EXECUTÁVEIS GERAIS
+*.exe                 # Windows
+*.out                 # Linux/Mac
+*.app                 # Mac OS
+a.out                 # Saída padrão GCC
+*.bin                 # Binários
+*.run                 # Executáveis Linux
+*.dmg                 # Instaladores Mac
+*.msi                 # Instaladores Windows
+
+# 📁 DIRETÓRIOS DE BUILD/COMPILAÇÃO
+/build/               # Builds
+/bin/                 # Binários
+/obj/                 # Objetos compilados
+/target/              # Target (Maven, Rust)
+/release/             # Releases
+/debug/               # Builds de debug
+
+# 🔐 ARQUIVOS SENSÍVEIS (NUNCA VERSIONAR!)
+.env                  # Variáveis de ambiente
+.env.local            # Ambiente local
+.env.production       # Produção
+.env.development      # Desenvolvimento
+.secrets              # Segredos
+*.key                 # Chaves
+*.pem                 # Certificados
+*.crt                 # Certificados
+credentials.json      # Credenciais
+config.ini            # Configurações
+*.cfg                 # Configurações locais
+
+# 📋 LOGS
+*.log                 # Logs gerais
+*.log.*               # Logs rotacionados
+logs/                 # Diretório de logs
+error.log             # Logs de erro
+access.log            # Logs de acesso
+
+# 🖥️ SISTEMA OPERACIONAL
+.DS_Store             # Mac
+Thumbs.db             # Windows
+desktop.ini           # Windows
+$RECYCLE.BIN/         # Windows
+.AppleDouble/         # Mac
+.LSOverride/          # Mac

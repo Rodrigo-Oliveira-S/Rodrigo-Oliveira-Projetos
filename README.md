@@ -8,18 +8,24 @@ Com foco em unir programas para conexões que dão resultado.
 
 ### 📟 **Projetos COBOL**
 
+- Hello-Word concluído: Principais aprendizados adquiridos, pois a estrutura é a base de tudo (AS 4 DIVISIONS)
+
 
 ### 🐍 **Projetos Python**
 
+- Em Breve...
 
 ### 🗄️ **Projetos SQL**
 
+- Em Breve...
 
 ### ⚙️ **Scripts**
 
+- Em Breve...
 
 ### 📊 **Microsoft Excel**
 
+- Em Breve...
 
 ## 🎯 Objetivos
 - Consolidar conhecimento em COBOL.
