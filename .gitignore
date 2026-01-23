@@ -2,10 +2,6 @@
 # ARQUIVOS PARA IGNORAR - Mantenha apenas código fonte
 # ============================================
 
-# 🔧 COBOL - Executáveis principais
-hello-word
-calculadora
-
 # 🔧 COBOL - Principais executáveis e intermediários
 *.gnt                  # Executável gerado
 *.int                  # Código intermediário
