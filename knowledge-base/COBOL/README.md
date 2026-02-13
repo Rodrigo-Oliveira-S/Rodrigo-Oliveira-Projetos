@@ -1,26 +1,14 @@
-# 📟 Projetos COBOL
+## COBOL - Estudos e Exercícios
 
-Esta pasta contém meus projetos e exercícios em COBOL.
+Esta pasta reúne meus estudos e exercícios práticos em COBOL, organizados por ordem de aprendizado. 
+Cada subpasta contém um programa que explora conceitos da linguagem.
 
-## 🎯 Objetivos de Aprendizado
-- Dominar estrutura básica do COBOL
-- Aprender divisões (IDENTIFICATION, DATA, PROCEDURE)
-- Trabalhar com arquivos e bancos de dados
-- Desenvolver sistemas comerciais
+## Objetivo de Estudo
 
-## 📁 Projetos
+Aprofundar meus conhecimentos em COBOL, cobrindo desde a estrutura básica até tópicos mais avançados, 
+como manipulação de arquivos, tabelas e integração com bancos de dados. 
+A ideia é construir uma base sólida que permita desenvolver sistemas comerciais e compreender o funcionamento de ambientes mainframe.
 
-### 🧮 Calculadora Básica
+## Como os Programas Estão Organizados
 
-
-### 📝 Sistema de Formulários
-
-
-## 🛠️ Como Eexecutar
-```bash
-
-# Compilar
-cobc -x programa.cbl
-
-# Executar
-./programa
+Os programas são numerados sequencialmente conforme avanço nos estudos. Cada um tem seu próprio README explicando o que foi praticado.
