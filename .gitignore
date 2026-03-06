@@ -72,6 +72,7 @@ a.out                 # Saída padrão GCC
 *.dmg                 # Instaladores Mac
 *.msi                 # Instaladores Windows
 
+
 # 📁 DIRETÓRIOS DE BUILD/COMPILAÇÃO
 /build/               # Builds
 /bin/                 # Binários
@@ -107,3 +108,11 @@ desktop.ini           # Windows
 $RECYCLE.BIN/         # Windows
 .AppleDouble/         # Mac
 .LSOverride/          # Mac
+
+# Executáveis específicos do COBOL (Que estavam passando por não conter extensão nos nomes)
+tabuada
+media-notas
+conversor
+contador
+hello-word
+calculadora
