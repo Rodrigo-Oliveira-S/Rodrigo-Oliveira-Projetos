@@ -1,5 +1,3 @@
-```markdown
-
 ## Conversor de Temperatura em COBOL
 
 Programa que converte temperaturas entre Celsius e Fahrenheit com um menu interativo.

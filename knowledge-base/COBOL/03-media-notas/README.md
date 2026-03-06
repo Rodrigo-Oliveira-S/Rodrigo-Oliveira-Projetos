@@ -1,5 +1,3 @@
-```markdown
-
 ## Média de Notas em COBOL
 
 Programa que calcula a média de três notas e classifica o resultado (aprovado, recuperação ou reprovado).

@@ -1,8 +1,6 @@
-```markdown
-
 ## Tabuada em COBOL
 
-Programa que exibe a tabuada de um número utilizando estruturas de repetição.
+- Programa que exibe a tabuada de um número utilizando estruturas de repetição.
 
 ## Objetivo
 

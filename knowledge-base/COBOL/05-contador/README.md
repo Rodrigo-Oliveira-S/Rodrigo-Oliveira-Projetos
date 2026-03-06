@@ -1,5 +1,3 @@
-```markdown
-
 ## Contador em COBOL
 
 Programa que conta de 1 até um número definido utilizando loops.
