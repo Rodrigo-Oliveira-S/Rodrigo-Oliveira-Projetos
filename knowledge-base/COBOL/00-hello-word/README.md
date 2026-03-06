@@ -1,43 +1,28 @@
-# 🌍 Hello Word em COBOL
+```markdown
+
+## Hello Word em COBOL
 
 - Meu primeiro programa em COBOL, demonstrando a estrutura básica da linguagem.
 
-# 🎯 Objetivo
+## Objetivo
 
 - Aprender estrutura básica do COBOL.
 - Entender as DIVISIONS (IDENTIFICATION, ENVIRONMENT, DATA, PROCEDURE)
 - Primeiro contato com DISPLAY e STOP RUN.
 
-# 📚 Conceitos Aprendidos
+#  Conceitos Aprendidos
 
 - **IDENTIFICATION DIVISION**: Identificação do programa.
 - **PROCEDURE DIVISION**: Onde fica a lógica executável.
 - **DISPLAY**: Para mostrar os conteúdos na tela.
 - **STOP RUN**: Para finalizar a execução.
 
-# 🚀 Como Executar
+## Como executar
 
-- No bash, compilar desta forma:
+cobc -x hello-word.cbl
 
-# Compilar
+./hello-word
 
-- cobc -x hello-word.cbl
-
-# Executar
-
-- ./hello-word
-
-# 📱 MULTIPLATAFORMA
-
-Este projeto foi desenvolvido e testado em:
-
-- ** 💻 WSL Ubuntu** (desenvolvimento principal)
-- ** 📱 Android Termux** (testes em mobilidade)
-
-# 📈 Próximos Passos
-
-- Estarei estudando para criar uma calculadora.
-- Assim teremos mais complexidade nos programas, mesmo que pequenos de inicio.
 
 ## Este projeto marca o início da minha jornada em 19-01-2026.
 
