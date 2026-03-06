@@ -1,5 +1,3 @@
-```markdown
-
 ## Calculadora no COBOL
 
 - É uma calculadora básica para efetuar cálculos simples.

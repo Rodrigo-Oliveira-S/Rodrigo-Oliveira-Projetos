@@ -1,5 +1,3 @@
-```markdown
-
 ## Hello Word em COBOL
 
 - Meu primeiro programa em COBOL, demonstrando a estrutura básica da linguagem.
@@ -13,6 +11,7 @@
 #  Conceitos Aprendidos
 
 - **IDENTIFICATION DIVISION**: Identificação do programa.
+- **DATA DIVISION**: Lugar das variáveis.
 - **PROCEDURE DIVISION**: Onde fica a lógica executável.
 - **DISPLAY**: Para mostrar os conteúdos na tela.
 - **STOP RUN**: Para finalizar a execução.
